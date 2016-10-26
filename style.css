@@ -1,0 +1,97 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+
+  display: block;
+  margin: 8px;
+}
+
+div {
+  display: block;
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card h1, h2, h3,{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+img {
+  border-radius: 4px;
+}
+
+
+h1 {
+  color: #DD5555;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+li {
+  display: list-item;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+}
+
+.border-black {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.icon-big {
+  font-size: 40px;
+}
+
+.social-icons li {
+  width: 24%;
+  padding: 0px 20px;
+}
+
+.movies img {
+  margin-right: 30px;
+}
+
