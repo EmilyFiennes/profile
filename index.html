@@ -4,25 +4,44 @@
     <title>Basic info</title>
 
     <!-- Google fonts -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
 
     <!-- Fontawesome -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Your style -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <div class="container">
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle icon-sidebar"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-file-video-o icon-sidebar"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring icon-sidebar"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <div class="container">
       <div class="card">
         <h1>Emily Twisleton-Wykeham-Fiennes</h1>
         <h2>Le Wagon student and developer-in-training</h2>
         <a href="https://github.com/emilyfiennes" target="_blank"">See for yourself</a>
       </div>
       <div class="card"><img src="images/profile.jpg" alt="Emily Profile Photo"></i></div>
-      <div class="card"><p>I'm a <strong>developer-in-training with a penchant for languages and the web</strong>. I've created articles for <strong>InVision, Atomic and Azendoo</strong>. I'm currently living in Bordeaux, and am looking for a Ruby on Rails placement in Paris. When I'm not practising my code, you'll find me at the swimming pool or cooking for friends.</p></div>
-      <div class="card">
+      <div id="summary" class="card"><p>I'm a <strong>developer-in-training with a penchant for languages and the web</strong>. I've created articles for <strong>InVision, Atomic and Azendoo</strong>. I'm currently living in Bordeaux, and am looking for a Ruby on Rails placement in Paris. When I'm not practising my code, you'll find me at the swimming pool or cooking for friends.</p></div>
+      <div id="favorite-movies" class="card">
         <table class="movies">
           <thead><h2>My movies</h2>
           </thead>
@@ -81,7 +100,7 @@
         </ul>
       </div>
 
-      <div class="card">
+      <div id="footer" class="card">
         <h2>About this page</h2>
         <p>This page was made on my <i class="fa fa-laptop" aria-hidden="true"></i> in week 4 of the <a href="http://lewagon.org/program" target="_blank"><br> 9-week FullStack program @LeWagon</a></p>
         <ul class="list-inline">
@@ -91,5 +110,7 @@
         </ul>
       </div>
     </div>
+    </div>
   </body>
 </html>
+§

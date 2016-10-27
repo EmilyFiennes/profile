@@ -15,6 +15,22 @@ div {
   text-align: center;
 }
 
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+}
+#sidebar ul {
+  list-style: none;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
 .container {
   width: 500px;
   margin: 30px auto;
@@ -82,13 +98,16 @@ a:hover{
   text-align: center;
 }
 
-.icon-big {
+.icon-sidebar {
   font-size: 40px;
+  padding: 20px 20px 20px 20px;
+  margin-right: 200px;
 }
 
 .social-icons li {
-  width: 24%;
-  padding: 0px 20px;
+  font-size: 30px;
+  width: 35%;
+  padding-top: 20px;
 }
 
 .movies img {
